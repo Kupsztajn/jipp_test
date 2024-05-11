@@ -1,0 +1,40 @@
+W ramach projektu należy uwzględnić jak najwięcej elementów języka c++ takich jak
+obiektowość, dziedziczenie, hermetyzacja, wyjątki, polimorfizm statyczny i
+dynamiczny, funkcje wirtualne, klasa string, elementy STL oraz obowiązku zapis i
+odczyt z pliku. 
+
+9. W ramach projektu dobrze byłoby wykorzystać następujące elementy QT:
+a) Layouty – tak by aplikacja była skalowalna i się nie rozjeżdżała (materiał do
+obejrzenia
+https://www.youtube.com/watch?v=6KtOzh0StTc&list=PL2D1942A4688E9D63
+filmiki od 1 do 10)
+b) QPushButton
+https://www.youtube.com/watch?v=dOovH6TvaY4&list=PL2D1942A4688E9D63&
+index=15
+c) QCheckBox
+https://www.youtube.com/watch?v=W3EWVLPAoeA&list=PL2D1942A4688E9D6
+3&index=17
+d) QComboBox
+https://www.youtube.com/watch?v=5Lb8DZhAAi8&list=PL2D1942A4688E9D63&ind
+ex=19
+e) QListWidget
+https://www.youtube.com/watch?v=4nyM1_TGXbE&list=PL2D1942A4688E9D63&in
+dex=20
+(obowiązkowo)
+f) QMessageBox
+https://www.youtube.com/watch?v=zwCjcZD7GlU&list=PL2D1942A4688E9D63&i
+ndex=26
+
+Przykładowa aplikacja: program do zarządzania studentami
+Lista funkcjonalności:
+a) Podgląd listy studentów
+b) Dodanie studenta (imię, nazwisko, czy aktywny, studia
+stacjonarne/niestacjonarne, kierunek)
+c) Edycja studenta
+d) Usunięcie studenta
+e) Komunikaty – poprawnie dodane/usunięto/edytowano studenta
+f) Zapisz dane do pliku
+g) Wczytaj z pliku
+h) Student może dziedziczyć po jakiejś bazowej klasie osoba
+i) Możemy mieć przykładowy wyjątek typu – za długie imię
+j) Z STL możemy wykorzystać kolekcję vector do przechowywania danych 
