@@ -12,7 +12,9 @@ int main()
 	int y = 15;
 	int z = 10;
 	int d = 11005;
+	int k = 123;
 
 	cout << d << endl;
+	cout << k;
 	return 0;
 }
