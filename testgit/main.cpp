@@ -11,5 +11,7 @@ int main()
 	int y = 15;
 	int z = 10;
 	int d = 11005;
+
+	cout << d << endl;
 	return 0;
 }
